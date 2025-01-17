@@ -1,0 +1,9 @@
+.main-button {
+  width: 300px;
+  padding: 20px 30px;
+  background-color: cadetblue;
+  border: none;
+  border-radius: 4px;
+  font-size: 28px;
+  color: rgb(87, 87, 87);
+}
