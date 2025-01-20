@@ -5,7 +5,7 @@ function ProfileCard() {
   return (
     <div className="profileCard-wrapper">
       <img src={profileData.img} />
-      <h2>{profileData.name + " " + profileData.lastName}</h2>
+      <h2>{`${profileData.name} ${profileData.lastName}`}</h2>
       <div>{profileData.occupation}</div>
       <div>
         Hobby:
