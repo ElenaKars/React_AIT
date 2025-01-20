@@ -1,0 +1,13 @@
+.profileCard-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  width: 300px;
+  padding: 20px;
+}
+
+img {
+  max-width: 100%;
+}
