@@ -2,15 +2,16 @@ import { profileData } from "./data";
 import "./styles.css";
 
 function ProfileCard() {
+  const { img, name, lastName, occupation, hobby } = profileData;
   return (
     <div className="profileCard-wrapper">
-      <img src={profileData.img} />
-      <h2>{`${profileData.name} ${profileData.lastName}`}</h2>
-      <div>{profileData.occupation}</div>
+      <img src={img} />
+      <h2>{`${name} ${lastName}`}</h2>
+      <div>{occupation}</div>
       <div>
         Hobby:
         <ul>
-          {profileData.hobby.map((hobbyItem) => (
+          {hobby.map((hobbyItem) => (
             <li key={hobbyItem.id}>{hobbyItem.name}</li>
           ))}
         </ul>
