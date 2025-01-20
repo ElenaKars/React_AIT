@@ -1,0 +1,12 @@
+.homework03-wrapper {
+  font-family: "Lato", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  width: 100%;
+  max-width: 470px;
+  margin: 0 auto;
+  gap: 30px;
+}

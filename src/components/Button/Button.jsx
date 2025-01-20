@@ -3,11 +3,10 @@ import "./styles.css";
 // const props = {
 // name: <the property >
 // }
-function Button({ name = "Send" }) {
-  const buttonType = "submit";
+function Button({ name, type = "button" }) {
   //   const { name } = props;
   return (
-    <button className="main-button" type={buttonType}>
+    <button className="main-button" type={type}>
       {name}
     </button>
   );
