@@ -28,7 +28,7 @@ function Counter() {
         <Button name="-" onClick={onMinusClick} />
       </div>
       <div className="result-container">{counter}</div>
-      <div className="button-wrapper">
+      <div className="buttons-wrapper">
         <Button name="+" onClick={onPlusClick} />
       </div>
     </div>
