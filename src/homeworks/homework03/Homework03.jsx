@@ -5,8 +5,10 @@ import "./styles.css";
 function Homework03() {
   return (
     <div className="homework03-wrapper">
-      <Input name="email" placeholder="Enter your email" label="Email" />
-      <Button name="Send email" />
+      <form className="form-wrapper">
+        <Input name="email" placeholder="Enter your email" label="Email*" />
+        <Button name="Send email" />
+      </form>
     </div>
   );
 }
