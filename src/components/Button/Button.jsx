@@ -3,10 +3,10 @@ import "./styles.css";
 // const props = {
 // name: <the property >
 // }
-function Button({ name, type = "button" }) {
+function Button({ name, type = "button", onClick }) {
   //   const { name } = props;
   return (
-    <button className="main-button" type={type}>
+    <button className="main-button" type={type} onClick={onClick}>
       {name}
     </button>
   );
