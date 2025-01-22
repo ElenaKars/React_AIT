@@ -5,12 +5,13 @@ import "./App.css";
 // import Lesson_2 from "./lessons/lesson_2/lesson_2";
 // import Lesson03 from "./lessons/lesson03/Lesson03";
 // import Lesson04 from "./lessons/Lesson04/Lesson04";
-import Lesson05 from "./lessons/lesson05/Lesson05";
+// import Lesson05 from "./lessons/lesson05/Lesson05";
 
 //homeworks
 // import Homework02 from "./homeworks/Homework02";
 // import Homework03 from "./homeworks/homework03/Homework03";
 // import Homework04 from "./homeworks/homework04/Homework04";
+import Homework05 from "./homeworks/homework05/Homework05";
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
       {/* <Homework03 /> */}
       {/* <Lesson04 /> */}
       {/* <Homework04 /> */}
-      <Lesson05 />
+      {/* <Lesson05 /> */}
+      <Homework05 />
     </div>
   );
 }
