@@ -3,11 +3,19 @@ import "./styles.css";
 // const props = {
 // name: <the property >
 // }
-function Button({ name, type = "button", onClick }) {
+function Button({
+  id,
+  name,
+  type = "button",
+  onClick,
+  imgSrc = "",
+  altImg = "",
+}) {
   //   const { name } = props;
   return (
-    <button className="main-button" type={type} onClick={onClick}>
+    <button id={id} className="main-button" type={type} onClick={onClick}>
       {name}
+      {imgSrc && <img src={imgSrc} alt={altImg} className="button-image" />}
     </button>
   );
 }
