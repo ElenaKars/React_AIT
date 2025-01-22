@@ -19,6 +19,7 @@ function Feedback() {
     setLikes(0);
     setDislikes(0);
   };
+
   return (
     <div className="feedback-wrapper">
       <div className="feedback-container">
